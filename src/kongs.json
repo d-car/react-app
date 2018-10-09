@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Donkey",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/9/99/DonkeyTF.png/revision/latest?cb=20140308125654&format=original"
+    },
+    {
+      "id": 2,
+      "name": "Diddy",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/4/43/Diddy_Kong_%28Donkey_Kong_Country_Tropical_Freeze%29.png/revision/latest/scale-to-width-down/420?cb=20180811233324"
+    },
+    {
+      "id": 3,
+      "name": "Dixie",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/e/e9/Dixie_Kong.png/revision/latest?cb=20110909221102&format=original"
+    },
+    {
+      "id": 4,
+      "name": "Kiddy",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/0/06/Kiddyrun.jpg/revision/latest?cb=20100909041145&format=original"
+    },
+    {
+      "id": 5,
+      "name": "Cranky",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/8/8b/CrankyTF.jpg/revision/latest?cb=20140308130147&format=original"
+    },
+    {
+      "id": 6,
+      "name": "Lanky",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/7/73/Lanky_Kong.jpg/revision/latest?cb=20080915190951"
+    },
+    {
+      "id": 7,
+      "name": "Chunky",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/f/fb/200px-Chunky_Kong.jpg/revision/latest?cb=20180312062925&format=original"
+    },
+    {
+      "id": 8,
+      "name": "Funky",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/4/4a/Funky-GBC-DKC-art.jpg/revision/latest?cb=20100906031452&format=original"
+    },
+    {
+      "id": 9,
+      "name": "Swanky",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/a/a5/SwankyKong-dkc2.jpg/revision/latest?cb=20120202233232&format=original"
+    },
+    {
+      "id": 10,
+      "name": "Rambi",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/7/70/RambiRhinoDKCR.png/revision/latest?cb=20111203212319"
+    },
+    {
+      "id": 11,
+      "name": "Enguarde",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/9/9d/EnguardeArtworkCountry.png/revision/latest?cb=20120116234928"
+    },
+    {
+      "id": 12,
+      "name": "Candy",
+      "image": "https://vignette.wikia.nocookie.net/donkeykong/images/0/00/CandyDKC.PNG/revision/latest?cb=20100619192643&format=original"
+    }
+  ]
+  
