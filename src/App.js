@@ -6,9 +6,12 @@ import kongs from "./kongs.json";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.kongs to the kongs json array
   state = {
-    kongs
+    kongs: kongs,
+    clicked: [],
+    score: 0,
+    topScore: 0,
+    alert: ""
   };
 
   // removeKong = id => {
@@ -26,10 +29,35 @@ class App extends Component {
           name={kong.name} 
           image={kong.image} 
           reArrangeKongs={() => {this.reArrangeKongs(this.state.Kongs)}}
-          clickedCharacter={() => {this.clickedCharacter(kong.id)}}/>
+          kongs={() => {this.KongCard(kong.id)}}/>
       </section>
     )
   )
+
+  KongCard = (id) => {
+    const [pageBody] = document.getElementsByTagName('body');
+
+    if (this.state.KongCard.includes(id)) {
+      this.setState({score: 0, KongCard: []})
+
+      pageBody.classList.add('Wrapper')
+      this.setState({alert: 'You picked that already! Start Over.'})
+      console.log(KongCard)
+
+
+    } else {
+      this.setState({KongCard: [...this.state.KongCard, id]})
+      this.setState({score: this.state.score + 1})
+      if (this.state.score >= this.state.topScore) {
+        this.setState({topScore: this.state.score + 1})
+
+      } 
+      if (this.state.score === 11) {
+        this.setState({alert: 'You Won!'})
+        this.setState({score: 0, KongCard: [], kongs: kongs})
+      } 
+    }
+  }
 
     
 
@@ -41,20 +69,6 @@ class App extends Component {
 
 
 
-
-      // <Wrapper>
-      //   <Title>kongs List</Title>
-      //   {this.state.kongs.map(kong => (
-      //     <KongCard
-      //       removekong={this.removekong}
-      //       id={kong.id}
-      //       key={kong.id}
-      //       name={kong.name}
-      //       image={kong.image}
-      //     />
-      //   ))}
-      // </Wrapper>
-    // );
   }
 }
 
